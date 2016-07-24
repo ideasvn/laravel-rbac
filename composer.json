@@ -1,0 +1,19 @@
+{
+    "name": "ideasvn/rbac",
+    "description": "Laravel 5.2 RBAC",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Nguyen Tuan Sieu",
+            "email": "ideasvn@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ideasvn\\Rbac\\": "src/"
+        }
+    }
+}
