@@ -18,7 +18,7 @@ class RbacServiceProvider extends ServiceProvider
         ], 'migrations');
 
         $this->publishes([
-            __DIR__.'/config/permission.php' => config_path('permission.php'),
+            __DIR__.'/config/roles.php' => config_path('roles.php'),
         ], 'config');
     }
 
